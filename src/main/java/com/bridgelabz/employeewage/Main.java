@@ -8,7 +8,7 @@ public class Main {
 
 	public static void main(String args[]) {
 		// VARIABLES
-		CalculateWage wage = new CalculateWage(1,2,20,20,100);
+		CalculateWage wage = new CalculateWage(20,20,100);
 		int totalEmpWage= wage.calculate();
 		
 		System.out.println("total Emp Wage: " + totalEmpWage);
