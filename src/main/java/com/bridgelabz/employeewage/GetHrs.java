@@ -1,8 +1,8 @@
 package com.bridgelabz.employeewage;
 
 public class GetHrs {
-	public static final int IS_FULL_TIME=1;
-	public static final int IS_PART_TIME=2;
+	private static final int IS_FULL_TIME=1;
+	private static final int IS_PART_TIME=2;
 	public int getHrs() {
 		int empHrs = 0;
 		int empCheck = (int)Math.floor(Math.random() * 10) % 3;
