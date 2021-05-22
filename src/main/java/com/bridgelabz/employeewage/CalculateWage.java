@@ -1,11 +1,15 @@
 package com.bridgelabz.employeewage;
 
+/**
+ * @author prave
+ *
+ */
 public class CalculateWage {
-	int EMP_RATE_PER_HOUR;
-	int NUM_OF_WORKING_DAYS;
-	int MAX_HOURS_IN_MONTH;
+	private int EMP_RATE_PER_HOUR;
+	private int NUM_OF_WORKING_DAYS;
+	private int MAX_HOURS_IN_MONTH;
 	
-	public CalculateWage(int EMP_RATE_PER_HOUR,int NUM_OF_WORKING_DAYS,int MAX_HOURS_IN_MONTH) {
+	public void setparam(int EMP_RATE_PER_HOUR,int NUM_OF_WORKING_DAYS,int MAX_HOURS_IN_MONTH) {
 		this.EMP_RATE_PER_HOUR=EMP_RATE_PER_HOUR;
 		this.NUM_OF_WORKING_DAYS=NUM_OF_WORKING_DAYS;
 		this.MAX_HOURS_IN_MONTH=MAX_HOURS_IN_MONTH;
